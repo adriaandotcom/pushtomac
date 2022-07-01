@@ -1,0 +1,35 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  fill="none"
+  viewBox="0 0 750 750"
+>
+  <defs>
+    <path id="b" fill="#fff" d="M0 0h750v750H0z" />
+  </defs>
+  <g clip-path="url(#a)">
+    <use xlink:href="#b" />
+    <path fill="url(#c)" d="M-5 0h755v750H-5z" />
+    <path
+      fill="#fff"
+      d="M195 511h119v33h-1c-9 0-17 8-17 17 0 10 8 17 17 17h124c9 0 17-7 17-17 0-9-8-17-17-17h-1v-33h119c29 0 47-18 47-47V239c0-30-18-47-47-47H195c-29 0-47 17-47 47v225c0 29 18 47 47 47Zm-3-87c-6 0-8-2-8-8V241c0-8 5-13 13-13h356c8 0 13 5 13 13v175c0 6-2 8-8 8H192Z"
+    />
+    <rect width="163" height="61" x="381" y="250" fill="#fff" rx="5" />
+  </g>
+  <defs>
+    <linearGradient
+      id="c"
+      x1="372.5"
+      x2="372.5"
+      y1="0"
+      y2="750"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#E984CC" />
+      <stop offset="1" stop-color="#922594" />
+    </linearGradient>
+    <clipPath id="a">
+      <use xlink:href="#b" />
+    </clipPath>
+  </defs>
+</svg>
