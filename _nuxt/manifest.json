@@ -1,20 +1,29 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-9c1abb37.mjs",
+    "file": "entry-cebe4493.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
       "layouts/default.vue",
+      "pages/404.vue",
       "pages/contact.vue",
       "pages/index.vue",
       "pages/privacy.vue"
     ],
     "css": [
-      "entry.09df4a3f.css"
+      "entry.f36eb5af.css"
+    ]
+  },
+  "pages/404.vue": {
+    "file": "404-ebf9889b.mjs",
+    "src": "pages/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/contact.vue": {
-    "file": "contact-56176b98.mjs",
+    "file": "contact-e2c6a29f.mjs",
     "src": "pages/contact.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -22,7 +31,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-ef638354.mjs",
+    "file": "index-0f16780c.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -30,7 +39,7 @@
     ]
   },
   "pages/privacy.vue": {
-    "file": "privacy-ec2fafef.mjs",
+    "file": "privacy-252deab0.mjs",
     "src": "pages/privacy.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -38,7 +47,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-198011ee.mjs",
+    "file": "default-e70c651a.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
