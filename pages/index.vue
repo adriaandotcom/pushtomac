@@ -103,17 +103,11 @@
 </template>
 
 <script setup>
-useHead({
-  title: "Push To Mac",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  charset: "utf-8",
-  meta: [{ name: "description", content: "My amazing site." }],
-  htmlAttrs: {
-    class: "h-full bg-purple-50 dark:bg-purple-900",
-  },
-});
-
 import { ref, onMounted } from "vue";
+
+definePageMeta({
+  layout: false,
+});
 
 const showNotificationDuration = 5000;
 
@@ -205,9 +199,5 @@ onMounted(() => {
     if (typingInterval) clearTimeout(typingInterval);
     task.value = "";
   });
-});
-
-definePageMeta({
-  layout: false,
 });
 </script>

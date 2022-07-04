@@ -112,4 +112,10 @@
 
 <script setup>
 const { path } = useRoute();
+
+const route = useRoute();
+
+useHead({
+  title: route.meta.title ? `${route.meta.title} - Push To Mac` : "Push To Mac",
+});
 </script>
